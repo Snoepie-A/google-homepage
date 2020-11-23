@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+img {
+    max-width: 250px;
+}
+
+.search:hover {
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+}
+
+.topStyle {
+    display: flex;
+    width: 100%;
+    justify-content: right;
+}
+
+.topStyle a {
+    padding: 5px;
+    text-decoration: none;
+    color: #444;
+    align-self: center;
+}
+
+.topStyle a:hover {
+    text-decoration: underline;
+}
+
+.grid-img {
+    max-width: 20px;
+}
+
+.grid-img:hover {
+    max-width: 25px;
+}
+
+.signInStyle {
+    background-color: #00f;
+    border: none;
+    color: white;
+    padding: 10px 22px;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.signInStyle:hover {
+    background-color: #009;
+}
+
+.Logo {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-bottom: 20px;
+}
+
+.search {
+    display: block;
+    border: 1px solid #777;
+    border-radius: 15px;
+    margin-left: 30%;
+    margin-right:30%;
+    height: 30px;
+}
+
+.search-bar {
+    border: none;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.buttons input {
+    margin: 2% 0.5% 2% 2%;
+    border-radius: 5px;
+    padding: 5px 5px 5px 5px;
+}
+
+.footStyle {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background-color: #ddd;
+    padding: 10px;
+}
+
+.footStyle a{
+    color: #555;
+    text-decoration: none;
+    padding-right: 5px;
+}
+
+.footStyle a:hover {
+    text-decoration: underline;
+}
+
+.left-side {
+    width: 50%;
+    text-align: left;
+}
+
+.right-side {
+    width: 50%;
+    text-align: right;
+}
+
+#mag-glass {
+    display: inline-block;
+    margin: 1% 0% 0% 1%;
+}
